@@ -16,6 +16,10 @@
 		E907D0FC2B9A6C1A00E28F29 /* ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D0FB2B9A6C1A00E28F29 /* ReminderTests.swift */; };
 		E907D1062B9A6C1A00E28F29 /* ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1052B9A6C1A00E28F29 /* ReminderUITests.swift */; };
 		E907D1082B9A6C1A00E28F29 /* ReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1072B9A6C1A00E28F29 /* ReminderUITestsLaunchTests.swift */; };
+		E907D1152B9A6C7700E28F29 /* dataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1142B9A6C7700E28F29 /* dataModule.swift */; };
+		E907D1172B9A6DED00E28F29 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1162B9A6DED00E28F29 /* TableViewController.swift */; };
+		E907D1192B9A6DFB00E28F29 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1182B9A6DFB00E28F29 /* TableViewCell.swift */; };
+		E907D11B2B9A72B700E28F29 /* editAddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D11A2B9A72B700E28F29 /* editAddList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E907D1012B9A6C1A00E28F29 /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E907D1052B9A6C1A00E28F29 /* ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderUITests.swift; sourceTree = "<group>"; };
 		E907D1072B9A6C1A00E28F29 /* ReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E907D1142B9A6C7700E28F29 /* dataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModule.swift; sourceTree = "<group>"; };
+		E907D1162B9A6DED00E28F29 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E907D1182B9A6DFB00E28F29 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E907D11A2B9A72B700E28F29 /* editAddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editAddList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +110,11 @@
 				E907D0E42B9A6C1800E28F29 /* AppDelegate.swift */,
 				E907D0E62B9A6C1800E28F29 /* SceneDelegate.swift */,
 				E907D0E82B9A6C1800E28F29 /* ViewController.swift */,
+				E907D1162B9A6DED00E28F29 /* TableViewController.swift */,
+				E907D1182B9A6DFB00E28F29 /* TableViewCell.swift */,
+				E907D1142B9A6C7700E28F29 /* dataModule.swift */,
 				E907D0EA2B9A6C1800E28F29 /* Main.storyboard */,
+				E907D11A2B9A72B700E28F29 /* editAddList.swift */,
 				E907D0ED2B9A6C1A00E28F29 /* Assets.xcassets */,
 				E907D0EF2B9A6C1A00E28F29 /* LaunchScreen.storyboard */,
 				E907D0F22B9A6C1A00E28F29 /* Info.plist */,
@@ -261,6 +273,10 @@
 				E907D0E92B9A6C1800E28F29 /* ViewController.swift in Sources */,
 				E907D0E52B9A6C1800E28F29 /* AppDelegate.swift in Sources */,
 				E907D0E72B9A6C1800E28F29 /* SceneDelegate.swift in Sources */,
+				E907D11B2B9A72B700E28F29 /* editAddList.swift in Sources */,
+				E907D1192B9A6DFB00E28F29 /* TableViewCell.swift in Sources */,
+				E907D1172B9A6DED00E28F29 /* TableViewController.swift in Sources */,
+				E907D1152B9A6C7700E28F29 /* dataModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
